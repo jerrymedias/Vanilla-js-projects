@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="min-h-screen min-w-full flex items-center bg-gray-100 flex-col gap-4 p-8">
+    <h1 class="text-xl font-bold tracking-wider uppercase text-center text-green-500 select-none">Gif's Search</h1>
+    <div class="rounded shadow-md md:w-1/2 w-full relative">
+        <input type="text" name="todo" placeholder="Enter GIF's name" id="gifs-input"
+            class="p-4 text-xl w-full block" />
+    </div>
+
+    <div id="gifs-wrapper" class="wrapper">
+
+    </div>
+    
+    <template id="gifs">
+        <div class="img-wrapper">
+            <a>
+                <img class="image"/>
+            </a>
+        </div>
+    </template>
+</body>
+
+</html>

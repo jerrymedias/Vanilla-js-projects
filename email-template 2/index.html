@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            height: 9vh;
+            display: flex;
+            width: 100%;
+            background-color: #13100D;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .logo {
+            width: 40px;
+            height: 40px;
+            margin-left: 40px;
+        }
+
+        .title {
+            height: 40vh;
+            width: 100%;
+            background-image: url('http://193.122.74.156/uploads/mountain_b7a019d924.png');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #FFFFFF;
+            font-size: 30px;
+        }
+
+        .paragraph {
+            height: 47.5vh;
+            background-color: #FFFFFF;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 20px;
+            color: #13100D;
+            margin-bottom: 75px;
+        }
+
+        .link-btn {
+            background-color: #13100D;
+            border-radius: 8px;
+            color: #FDFDFD;
+            font-size: 16px;
+            font-weight: 700;
+            width: 160px;
+            height: 45px;
+        }
+
+        .footer {
+            height: 9vh;
+            width: 100%;
+            background-color: #13100D;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            color: #FFFFFF;
+            font-size: 14px;
+        }
+    </style>
+    <title>Email Template</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="http://193.122.74.156/uploads/logo_neom_1_5ca025cbc3.png" alt="Neom Logo" class="logo">
+        </div>
+    </header>
+
+    <main>
+        <div class="title">
+            <div>
+                News Notification
+            </div>
+        </div>
+
+        <section>
+            <div class="paragraph">
+                <p>
+                    Dear [user name],<br><br>
+
+                    Jacob Jones has uploaded New document in <span class="p-link">New enviroment chat_ team conversation</span><br><br>
+
+                    Click below to see the document
+                </p>
+                <button class="link-btn">View Documents</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <span>Privacy</span>
+        <span>T&C</span>
+        <span>Unsubscribe</span>
+    </footer>
+</body>
+</html>
